@@ -414,3 +414,96 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* ==============================
+   MOBILE OPTIMIZATIONS
+   ============================== */
+
+/* Smooth scrolling for all devices */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Better touch targets for mobile */
+@media (max-width: 768px) {
+
+  /* Increase touch target sizes */
+  .btn,
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Reduce padding on mobile */
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Smaller skill badges on mobile */
+  .px-3.py-1.text-sm {
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+  }
+
+  /* Project cards - optimize for mobile */
+  .project-card {
+    margin-bottom: 1rem;
+  }
+
+  /* Optimize text line height for mobile */
+  p {
+    line-height: 1.7;
+  }
+
+  /* Hide scroll indicator on mobile */
+  .scroll-arrow {
+    display: none;
+  }
+}
+
+/* Small phone optimizations */
+@media (max-width: 375px) {
+
+  /* Further reduce hero text size on very small screens */
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  /* Tighter section padding */
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Improve image loading on mobile */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-teal-400);
+  outline-offset: 2px;
+}
+
+/* Disable hover effects on touch devices */
+@media (hover: none) {
+  .group:hover .group-hover\:scale-105 {
+    transform: none;
+  }
+
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 0;
+  }
+}
