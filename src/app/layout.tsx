@@ -44,6 +44,10 @@ export const metadata: Metadata = {
   },
 };
 
+import TargetCursor from "@/components/TargetCursor";
+
+import ClickSpark from "@/components/ClickSpark";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -54,7 +58,20 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} ${spaceGrotesk.variable} font-display antialiased`}
       >
-        {children}
+        <TargetCursor
+          targetSelector="a, button, .cursor-target"
+          hideDefaultCursor={true}
+          spinDuration={4}
+        />
+        <ClickSpark
+          sparkColor='#fff'
+          sparkSize={10}
+          sparkRadius={15}
+          sparkCount={8}
+          duration={400}
+        >
+          {children}
+        </ClickSpark>
       </body>
     </html>
   );
