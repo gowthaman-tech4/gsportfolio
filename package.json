@@ -9,10 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "gsap": "^3.14.2",
-=======
->>>>>>> f89b7db74e0949337988cd8458933faafbefc944
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -27,8 +24,4 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f89b7db74e0949337988cd8458933faafbefc944
