@@ -1,52 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gowthaman S - AI/ML Engineer Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in the field of Artificial Intelligence, Machine Learning, and Full-Stack Development.
 
-First, run the development server:
+🌐 **Live Website:** [https://gsportfolio-j42u.vercel.app/](https://gsportfolio-j42u.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Modern & Responsive Design:** Built to look great on desktop and mobile devices.
+- **Interactive Animations:** Uses GSAP for smooth scroll animations, a custom custom animated cursor, and click-spark effects.
+- **Project Showcase:** Highlights my best work in AI/ML, Computer Vision, and Web Development.
+- **Dark/Light Theme Aesthetics:** Uses a tailored, professional color palette.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built using the following technologies:
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Library:** [React](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [GSAP](https://gsap.com/) (GreenSock Animation Platform)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## Getting Started Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you'd like to run this project on your local machine, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/gowthaman-tech4/gsportfolio.git
+   cd gsportfolio
+   ```
 
-## Deployment
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or yarn install / pnpm install
+   ```
 
-### Vercel (Recommended)
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or yarn dev / pnpm dev
+   ```
 
-The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+4. **View the site:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Push your code to a GitHub repository.
-2. Go to [Vercel](https://vercel.com) and sign up with GitHub.
-3. Click **"Add New..."** -> **"Project"**.
-4. Import your `gsportfolio` repository.
-5. Vercel will automatically detect the Next.js framework and configure the build settings.
-6. Click **"Deploy"**.
+## Structure
 
-Your site will be live in minutes!
+- `src/app`: Contains the Next.js pages and global layouts.
+- `src/components`: Contains reusable React components (Hero, About, Projects, Custom Cursor, etc.).
 
-### Other Platforms
+## Contact
 
-You can also deploy to Netlify, Render, or any host that supports Node.js.
-Build command: `npm run build`
-Output directory: `.next`
-Start command: `npm start`
+Feel free to reach out to me via the contact form on the website or connect with me on LinkedIn/GitHub (links provided on the site).
